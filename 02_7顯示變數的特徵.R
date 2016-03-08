@@ -1,0 +1,35 @@
+#顯示變數的特徵
+dim1<-c(1,2)
+object<-array(dim1)
+ #顯示對象中元素的數量
+ length(object)
+ #顯示對象的維度
+ dim(object)
+ #顯示對象的結構
+ str(object)
+ #顯示對象的類與類型
+ class(object)
+ #顯示對象的模式
+ mode(object)
+ #顯示對象中各成分的名稱
+ names(object)
+ #將對象object增加一個向量(2,3)
+ c(object,c(2,3))
+ #按照欄合併Object
+ cbind()
+ #按照列合併Object
+ rbind()
+ #顯示Object內容
+ Object
+ #顯示Object的前面幾行資料，預設值是6行資料
+ head(Object)
+ #顯示Object的後面幾何資料，預設值是6行資料
+ tail(Object)
+ #顯示目前環境使用元素的列表
+ ls()
+ #刪除一個或多個正在使用的元素 rm(object1,object2,...,objectN)
+ rm(dim1)
+ #編輯object的資料並存入newobject
+ newobject<-edit(object)
+ #值接編輯object
+ fix(object)
